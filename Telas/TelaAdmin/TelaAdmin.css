@@ -1,0 +1,57 @@
+.tela-Admin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Alinhar os itens no topo */
+  min-height: 100vh;
+}
+
+.menu-topo {
+  display: flex;
+  justify-content: center; /* Alinhar os botões no centro */
+  width: 100%;
+  padding: 20px;
+  margin-top: 150px; /* Ajuste esse valor de acordo com a altura do menu padrão */
+  gap: 20px; /* Espaçamento entre os botões */
+}
+
+.menu-topo button {
+  background-color: #067742; /* Verde escuro para os botões */
+  color: white;
+  padding: 10px 0; /* Ajuste para manter altura sem influência da largura */
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 150px; /* Definir uma largura fixa para os botões */
+  text-align: center; /* Garantir que o texto fique centralizado */
+}
+
+.menu-topo button:hover {
+  background-color: #294939; /* Verde mais escuro ao passar o mouse */
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Garantir que o conteúdo comece no topo */
+  width: 100%;
+  padding: 20px;
+  color: white;
+}
+
+.conteudo-principal h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.conteudo-principal div {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #005a4c; /* Cor de fundo para os blocos de conteúdo */
+  border-radius: 10px;
+  width: 80%;
+  text-align: center;
+}
